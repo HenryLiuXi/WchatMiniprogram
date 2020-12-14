@@ -1,0 +1,44 @@
+
+<view>用鼠标滚动查看控制台打印效果</view>
+
+正常状态下:
+<scroll-view scroll-y
+    bindscroll="scroll">
+  <view>111111</view>
+  <view>111111</view>
+  <view>111111</view>
+  <view>111111</view>
+  <view>111111</view>
+  <view>111111</view>
+  <view>111111</view>
+  <view>111111</view>
+</scroll-view>
+函数节流：
+<scroll-view scroll-y
+    bindscroll="scroll2">
+  <view>111111</view>
+  <view>111111</view>
+  <view>111111</view>
+  <view>111111</view>
+  <view>111111</view>
+  <view>111111</view>
+  <view>222222</view>
+  <view>222222</view>
+  <view>222222</view>
+  <view>222222</view>
+  <view>222222</view>
+  <view>222222</view>
+  <view>222222</view>
+  <view>222222</view>
+  <view>333333</view>
+  <view>333333</view>
+  <view>333333</view>
+  <view>333333</view>
+  <view>333333</view>
+  <view>333333</view>
+  <view>333333</view>
+  <view>333333</view>
+  <view>333333</view>
+  <view>333333</view>
+</scroll-view>
+<navigator url="../submit/submit" style="margin-top:30rpx;color:red;">点击去查看防抖效果</navigator>

@@ -1,0 +1,46 @@
+<form bindsubmit="formSubmit">
+  <view class="section section_gap">
+    <view class="section__title">switch</view>
+    <switch name="switch" />
+  </view>
+  <view class="section section_gap">
+    <view class="section__title">slider</view>
+    <slider name="slider" show-value></slider>
+  </view>
+
+  <view class="section">
+    <view class="section__title">input</view>
+    <input name="input" placeholder="please input here" />
+  </view>
+  <view class="section section_gap">
+    <view class="section__title">radio</view>
+    <radio-group name="radio-group">
+      <label>
+        <radio value="radio1" />
+        radio1
+      </label>
+      <label>
+        <radio value="radio2" />
+        radio2
+      </label>
+    </radio-group>
+  </view>
+  <view class="section section_gap">
+    <view class="section__title">checkbox</view>
+    <checkbox-group name="checkbox">
+      <label>
+        <checkbox value="checkbox1" />
+        checkbox1
+      </label>
+      <label>
+        <checkbox value="checkbox2" />
+        checkbox2
+      </label>
+    </checkbox-group>
+  </view>
+  <view class="btn-area">
+    <button form-type="submit">Submit</button>
+  </view>
+</form>
+
+<view style="color:red;">不断点击submit查看控制台效果，无论提交多少次，都只会触发一次</view>
